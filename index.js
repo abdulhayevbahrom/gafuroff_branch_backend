@@ -5,7 +5,7 @@ const cors = require("cors");
 const mongoose = require("mongoose"); // ⬅️ qo‘shamiz
 const applyTimezone = require("./model/mongoose-timezone"); // ⬅️ pluginni chaqiramiz
 
-const PORT = process.env.PORT || 8040;
+const PORT = process.env.PORT || 5050;
 const notfound = require("./middleware/notfound.middleware");
 const router = require("./routes/router");
 
